@@ -132,7 +132,7 @@ namespace WebCriptX
 
                     if (isLetra)
                     {
-                        if (palavraChaveIndex < (palavraChave.Length - 1))
+                        if (palavraChaveIndex < (palavraChave.Length))
                         {
                             linhaID = Array.IndexOf(letrasBasicas, Convert.ToString(palavraChave[palavraChaveIndex]));
                             palavraChaveIndex++;
